@@ -1,9 +1,0 @@
--- [2013-05-15 15:19:18][][sys_sort][delete][42]
-INSERT INTO sys_sort ( `id`, `tableid`, `userid`, `sort`, `filter`, `group`, `updtime`, `enabled`, `memo` ) values ( '42', '19', '1', '', 'aaaa', '', '1368602345', '1', '' );
--- [2013-05-15 15:19:07][][sys_sort][insert][42]
-DELETE FROM sys_sort WHERE id = 42;
--- [2013-05-15 12:54:52][][tbl_pfile][update][79]
-UPDATE tbl_pfile SET `id` = '79' , `reportid` = 'VAC1135' , `datafile` = '' , `pfile` = 'CFDTNE.p3' , `irinaiyo` = '■　箇所\r\nVAC1135\r\n■　問題点\r\n（トラブル_076と同じ）\r\nバッチ帳票変換済次期データに、項目「累計区分」\r\n（ロケーション：30、データ形式：C、レングス：1）は「0A」です。\r\nしかし、「0A」はLFので、CSVが出力不正。' , `tantosya` = '張鋭' , `tantodate` = '5/8' , `status` = '6' , `memo` = 'pファイル不備以外' , `recordlength` = '296'  WHERE id = 79;
--- [2013-05-15 12:54:37][][tbl_pfile][update][79]
-UPDATE tbl_pfile SET `id` = '79' , `reportid` = 'VAC1135' , `datafile` = '' , `pfile` = 'CFDTNE.p' , `irinaiyo` = '■　箇所\r\nVAC1135\r\n■　問題点\r\n（トラブル_076と同じ）\r\nバッチ帳票変換済次期データに、項目「累計区分」\r\n（ロケーション：30、データ形式：C、レングス：1）は「0A」です。\r\nしかし、「0A」はLFので、CSVが出力不正。' , `tantosya` = '張鋭' , `tantodate` = '5/8' , `status` = '6' , `memo` = 'pファイル不備以外' , `recordlength` = '296'  WHERE id = 79;
--- [2013-05-15 12:51:09][][tbl_pfile][update][]
