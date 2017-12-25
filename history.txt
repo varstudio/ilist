@@ -1,0 +1,18 @@
+﻿v0.1
+  1. 所有文件		具体参照"doc"目录下的手册。
+
+v0.2 
+  1. dbaction.php 	修正普通权限用户对“tbl_sort”和“tbl_message”操作的权限。
+  2. list.css		修改“textarea”的最小高度，保持编辑时的行高。
+  3. sort.php		增加“简易/详细”切换按钮，修正全部设置无效功能。
+  4. message.php	检索后，输入文本的内容保持。
+
+v0.3
+  1. logger.php		新加log输出和sql_rollback机能。
+  2. index.php		新加用户编辑时锁定记录功能，默认为10分钟。
+     dbaction.php
+
+v0.4
+  1. dbaction.php	全体代码优化，重写。
+  2. message.php	消息系统全体修改。
+  3. index.php		未读消息件数取得逻辑修改。

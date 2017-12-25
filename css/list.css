@@ -1,0 +1,362 @@
+@charset "Shift_JIS";
+
+/*********************************************************************/
+/* 全体スタイル                                                      */
+/*********************************************************************/
+body {
+    margin: 0px;
+}
+
+a:active { 
+    color:black; 
+    font-weight:bold; 
+    font-style:normal; 
+    text-decoration:none 
+}
+
+a:hover { 
+    color:black; 
+    font-style:normal; 
+    text-decoration:none 
+}
+
+a:link { 
+    color:black; 
+    font-style:normal; 
+    text-decoration:none 
+}
+
+a:visited { 
+    color:black; 
+    font-style:normal; 
+    text-decoration:none 
+}
+
+h1 {
+    text-align:center;
+    color:red;
+}
+/*********************************************************************/
+/* メニューのスタイル                                                */
+/*********************************************************************/
+#divtags {
+    float: left;
+}
+
+#tags {
+	padding-left: 0px; 
+	padding-right: 0px;
+	padding-top: 10px; 
+	padding-bottom: 0px; 
+	margin: 0px 0px 0px 5px; 
+	height: 23px; 
+	font-weight:bold;
+}
+
+#tags li {
+	background: url(../images/tagleft.gif) no-repeat left bottom; 
+	float: left; 
+	margin-right: 1px; 
+	list-style-type: none; 
+	height: 23px
+}
+
+#tags li a {
+	padding-right: 10px; 
+	padding-left: 10px; 
+	background: url(../images/tagright.gif) no-repeat right bottom; 
+	float: left; 
+	padding-bottom: 0px; 
+	color: #aaaaaa; 
+	line-height: 23px; 
+	padding-top: 0px; 
+	height: 23px; 
+	text-decoration: none;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#tags li.emptytag {
+	background: none transparent scroll repeat 0% 0%; 
+	width: 4px
+}
+
+#tags li.selecttag {
+	background-position: left top; 
+	margin-bottom: -2px; 
+	position: relative; 
+	height: 25px
+}
+
+#tags li.selecttag a {
+	background-position: right top; 
+	color: #000; 
+	line-height: 25px; 
+	height: 25px
+}
+
+/*
+#tagsadmin {
+	padding-left: 0px; 
+	padding-right: 0px;
+	padding-top: 10px; 
+	padding-bottom: 0px; 
+	margin: 0px 0px 0px 5px; 
+	height: 23px; 
+	font-weight:bold;
+}
+
+#tagsadmin li {
+	background: url(../images/tagleftadmin.gif) no-repeat left bottom; 
+	float: left; 
+	margin-right: 1px; 
+	list-style-type: none; 
+	height: 23px
+}
+
+#tagsadmin li a {
+	padding-right: 10px; 
+	padding-left: 10px; 
+	background: url(../images/tagrightadmin.gif) no-repeat right bottom; 
+	float: left; 
+	padding-bottom: 0px; 
+	color: #aaaaaa; 
+	line-height: 23px; 
+	padding-top: 0px; 
+	height: 23px; 
+	text-decoration: none;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#tagsadmin li.emptytag {
+	background: none transparent scroll repeat 0% 0%; 
+	width: 4px
+}
+
+#tagsadmin li.selecttag {
+	background-position: left top; 
+	margin-bottom: -2px; 
+	position: relative; 
+	height: 25px
+}
+
+#tagsadmin li.selecttag a {
+	background-position: right top; 
+	color: #000; 
+	line-height: 25px; 
+	height: 25px
+}
+*/
+
+/*********************************************************************/
+
+/*********************************************************************/
+/* コマンドボタンエリアのスタイル                                    */
+/*********************************************************************/
+.CommandArea {
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+	float: left;
+	width: 100%;
+}
+
+.btn {
+    margin-left: 5px;
+	float: left; 
+	margin-right: 1px; 
+    width: 80px;
+    height: 25px;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	/* padding: .5em 2em .55em; */
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.btn:hover {
+	text-decoration: none;
+	background-color: silver;
+}
+
+.orange {
+    margin-left: 5px;
+	float: left; 
+	margin-right: 1px; 
+    width: 80px;
+    height: 28px;
+    color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	/* filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20'); */
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 13px/100% Arial, Helvetica, sans-serif;
+	/* padding: .5em 2em .55em; */
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.orange:hover {
+	background: #f47c20;
+}
+.orange:active {
+	color: #fcd3a5;
+}
+
+.orange_wide {
+    margin-left: 5px;
+	float: left; 
+	margin-right: 1px; 
+    height: 28px;
+    color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	/* filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20'); */
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 13px/100% Arial, Helvetica, sans-serif;
+	/* padding: .5em 2em .55em; */
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+
+.orange_wide:hover {
+	background: #f47c20;
+}
+
+.orange_wide:active {
+	color: #fcd3a5;
+}
+
+/*********************************************************************/
+
+.list_bx {
+    padding-top: 5px;
+    padding-left: 5px;
+    clear: both;
+    height: 300px;
+    overflow: auto;
+    /* border: 1px solid red; */
+}
+
+table.tblList {
+    border-collapse:collapse;
+    /* border: 1px solid green; */
+}
+
+table.tblList th {
+    background-color:#C6C6C6;
+    font-size:9pt;
+    text-align:center;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+    line-height:200%;
+}
+
+table.tblList td {
+    height: 25px;
+    padding: 3px;
+    font-size:9pt;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+}
+
+.list_check {
+    text-align:center;
+}
+
+.list_date {
+    text-align:center;
+}
+
+.list_string {
+    text-align:left;
+}
+
+.list_number {
+    text-align:center;
+}
+
+.delete {
+    background-color : red;
+}
+
+.copy {
+    background-color : green;
+}
+
+.text {
+    padding: 0px;
+    width:100%;
+    height:100%;
+    border: 0px;
+    background-color: yellow;
+}
+
+.textarea {
+    padding: 0px;
+    width:100%;
+    height:100%;
+    min-height:100px;
+    border: 0px;
+    background-color: yellow;
+}
+
+.textarea_s {
+    padding: 0px;
+    width:100%;
+    height:100%;
+    border: 0px;
+    background-color: yellow;
+}
+
+.select {
+    width:100%;
+    height:100%;
+    border: 0px;
+    background-color: yellow;
+}
+
+.even { background:#99CCFF; }
+.odd { background:#EDF1F8; }
+
+.message {
+    font-size:9pt;
+    margin : 5px;
+    color: red;
+    font-weight:bold;
+}
+
+/*********************************************************************/
+/* ソートフィルタ画面用スタイル　                                    */
+/*********************************************************************/
+.title {
+    text-align:center;
+    padding: 10px;
+    font: 18pt ＭＳ Ｐゴシック;
+}
